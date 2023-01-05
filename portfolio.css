@@ -69,7 +69,14 @@ nav li {
     align-items: center;
     margin: 0 200px;
 }
-
+.info-title{
+    font-weight: bold;
+}
+.info-description{
+    font-size: 15px;
+    margin-top: 5px;
+    color: rgb(126, 109, 109);
+}
 .banner-title {
     font-weight: 500;
     font-size: 65px;
@@ -93,16 +100,18 @@ nav li {
 }
 /* about section style start here */
 .about-me{
+    height: 350px;
     margin-top: 90px;
     margin-bottom: 70px;
     margin-left:150px;
-    border: 1px solid black;
-    border-radius: none;
-    outline: none
+    border-radius: 3px;
+    padding: 25px;
+    
     align-items: center;
     background-color: burlywood;
 
 }
+
 .section-title{
     text-align: center;
     margin-top: 35px;
@@ -120,7 +129,110 @@ nav li {
     margin-top: 45px;
     margin-bottom: 45px;
 }
+.section-description{
+    font-size: 15px;
+}
 .about-info{
     margin-left: 65px;
 }
 /* about section style ends here */
+
+
+/* what i do section start here */
+.skills-container{
+    display: flex;
+    gap: 10px;
+}
+.section-title{
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.skill-title{
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.skill-description{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.skill{
+    background-color:#FFFFFF;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow:  0px 6px 50px rgba(0, 0, 0, 0.2);
+}
+.what-i-do{
+    margin-left: 175px;
+}
+/* what i do section end here */
+
+/* resume section start here */
+.resume-content{
+    display: flex;
+}
+.section-titler{
+    font-weight: bold;
+    text-align: center;
+    margin-left: 195px;
+    margin-top: 30px;
+}
+.resume-title{
+    padding: 25px;
+    margin: 10px;
+}
+.resume-content{
+    
+    margin-left: 225px;
+    margin-top: 25px;
+}
+.title{
+padding: 10px;
+}
+.sub-title{
+padding: 10px;
+color: gray;
+}
+.description{
+padding: 10px;
+font-size: 15px;
+}
+.resume-item{
+    margin: 25px;
+}
+.resume-button{
+    margin-left: 560px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+hr{
+    width:300px;
+    margin-left: 35px;
+}
+/* resume section ends here */
+
+
+/* contact section start here */
+.contact{
+    margin-top: 45px;
+    display: flex;
+}
+
+.section-description{
+font-size: 15px;
+}
+.a-edit{
+margin-left: 110px;
+margin-top: 5px;
+padding: 15px;
+}
+.section-tool{
+    padding:5px;
+    margin-right: 15px;
+}
+.cont-form{
+    padding-bottom: 75px;
+}
+/* contact section ends here */
